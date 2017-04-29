@@ -1,10 +1,6 @@
-/* global malarkey:false, moment:false */
 (function() {
   'use strict';
 
   angular
-    .module('angularYoProject')
-    .constant('malarkey', malarkey)
-    .constant('moment', moment);
-
+    .module('FiveSportsApp')
 })();

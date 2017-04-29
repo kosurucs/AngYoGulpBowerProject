@@ -2,6 +2,14 @@
   'use strict';
 
   angular
-    .module('angularYoProject', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'toastr']);
-
+    .module('FiveSportsApp', [
+      'ngAnimate',
+      'ngCookies',
+      'ngTouch',
+      'ngSanitize',
+      'ngMessages',
+      'ngAria',
+      'ngResource',
+      'ui.router'
+    ]);
 })();
